@@ -1,5 +1,9 @@
+C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
 C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
 C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
-C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\Users\Kasun\Documents\GitHub\SportStore\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
