@@ -54,7 +54,7 @@ Assert.AreEqual(prodArray[1].Name, "P5");
             // Arrange - set up the delegate using a lambda expression
             Func<int, string> pageUrlDelegate = i => "Page" + i;
             // Act
-            MvcHtmlString result = myHelper.PageLinks(pagingInfo, pageUrlDelegate);
+            MvcHtmlString result = myHelper.PageLinks(pagingInfo,pageUrlDelegate);
             // Assert
             Assert.AreEqual(result.ToString(), @"<a href=""Page1"">1</a>"
             + @"<a class=""selected"" href=""Page2"">2</a>"
