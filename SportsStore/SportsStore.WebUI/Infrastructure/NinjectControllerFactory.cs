@@ -7,6 +7,7 @@ using SportsStore.Domain.Abstract;
 using System.Collections.Generic;
 using System.Linq;
 using Moq;
+using SportsStore.Domain.Concrete;
 
 namespace SportsStore.WebUI.Infrastructure
 {
@@ -34,7 +35,7 @@ namespace SportsStore.WebUI.Infrastructure
             new Product { Name = "Surf board", Price = 179 },
             new Product { Name = "Running shoes", Price = 95 }
             }.AsQueryable());
-            ninjectKernel.Bind<IProductRepository>().ToConstant(mock.Object);
+            ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
         }
     }
 }
