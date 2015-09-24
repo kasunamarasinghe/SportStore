@@ -31,14 +31,12 @@ namespace SportsStore.WebUI.Infrastructure
         {
             // put bindings here
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
-            EmailSettings emailSettings = new EmailSettings
+           EmailSettings emailSettings = new EmailSettings
             {
                 WriteAsFile = bool.Parse(ConfigurationManager
                 .AppSettings["Email.WriteAsFile"] ?? "false")
             };
-            ninjectKernel.Bind<IOrderProcessor>()
-            .To<EmailOrderProcessor>()
-            .WithConstructorArgument("settings", emailSettings);
+            ninjectKernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>().WithConstructorArgument("settings", emailSettings);
         }
     }
 }
