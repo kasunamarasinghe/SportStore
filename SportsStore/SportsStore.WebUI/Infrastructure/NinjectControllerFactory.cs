@@ -30,8 +30,9 @@ namespace SportsStore.WebUI.Infrastructure
         private void AddBindings()
         {
             // put bindings here
-            Mock<IProductRepository> mock = new Mock<IProductRepository>();
-           EmailSettings emailSettings = new EmailSettings
+          
+            ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
+          EmailSettings emailSettings = new EmailSettings
             {
                 WriteAsFile = bool.Parse(ConfigurationManager
                 .AppSettings["Email.WriteAsFile"] ?? "false")
